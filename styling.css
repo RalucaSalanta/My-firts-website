@@ -1,3 +1,4 @@
+/*body section */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -6,19 +7,24 @@ body {
   color: #88a6ac;
 }
 
-.logo img {
-  width: 200px;
+.menu {
+  width: fit-content;
   height: auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+/* navigare si banner*/
+.imgCaine {
+  width: 25%;
+  height: 25%;
   background-color: transparent;
 }
 
 nav {
   background-color: transparent;
   color: #88a6ac;
-  padding: 10%;
-  margin-top: auto;
+  margin: auto;
 }
 
 nav ul {
@@ -26,43 +32,24 @@ nav ul {
   padding: 0;
   margin: 0;
   text-align: center;
+  font-size: larger;
 }
 
 nav ul li {
   display: inline;
   margin-right: 10px;
-  letter-spacing: 2.5px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
-  font-size: larger;
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
 header {
-  background: url("Leia.banner.jpg") top/cover no-repeat;
+  background: url("leiaPadure.jpg") top/cover no-repeat;
   text-align: center;
-  height: 100vh;
-}
-
-content {
-  width: 45%; 
-  display: inline-block;
-  vertical-align: top;
-}
-
-.Leia.banner {
-  width: 45%; 
-  display: inline-block;
-  vertical-align: top;
-}
-
-.Leia.banner img {
-  width: 100%; 
-  display: block; 
-  border-radius: 5px; 
+  height: 110vh;
 }
 
 header h1,
@@ -70,35 +57,53 @@ header p {
   color: #88a6ac;
   letter-spacing: -0.5px;
 }
-
+/*main */
+.h1 {
+  text-align: center;
+}
 .Leia {
   border-radius: 5px;
-  width: 300px;
+  width: 400px;
   height: auto;
   float: left;
 }
+.Dakota {
+  border-radius: 5px;
+  width: 400px;
+  height: auto;
+}
+.Cat {
+  border-radius: 5px;
+  width: 400px;
+  height: 250px;
+}
+.laptop{
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
+a.contact:hover {
+  color: #181e16;
+}
 
 section > div {
   margin: auto;
   max-width: 80%;
-  padding: 50px;
+  padding: 15px;
   width: 1440px;
 }
-
+/*footer*/
 footer {
   background-color: #a7cbc5;
   color: #181e16;
   overflow: hidden;
-  padding: 10px 0;
+  padding: 10px;
   text-align: center;
   width: 100%;
-}
-
-.row {
-  overflow: hidden;
-  float: right;
 }
 
 .column {
